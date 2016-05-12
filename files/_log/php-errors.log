@@ -1,0 +1,2412 @@
+Test
+2015-10-05 19:13:11 [2@localhost.localdomain]
+  *** PHP Notice(8): Undefined index: glpiactiveentities_string
+  Backtrace :
+  inc/db.function.php:1716                           
+  inc/link.class.php:537                             getEntitiesRestrictRequest()
+  inc/search.class.php:5231                          Link::getSearchOptionsToAdd()
+  inc/log.class.php:120                              Search::getOptions()
+  inc/commondbtm.class.php:369                       Log::constructHistory()
+  inc/commondbtm.class.php:1115                      CommonDBTM->updateInDB()
+  inc/auth.class.php:384                             CommonDBTM->update()
+  inc/auth.class.php:677                             Auth->connection_db()
+  front/login.php:74                                 Auth->Login()
+2015-10-05 19:13:11 [@localhost.localdomain]
+  *** PHP Warning(2): session_regenerate_id(): Cannot regenerate session id - headers already sent
+  Backtrace :
+  inc/toolbox.class.php:594                          
+  :                                                  Toolbox::userErrorHandlerDebug()
+  inc/session.class.php:87                           session_regenerate_id()
+  inc/auth.class.php:810                             Session::init()
+  front/login.php:74                                 Auth->Login()
+2015-10-05 21:22:18 [4@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveentities_string
+  Backtrace :
+  inc/db.function.php:1716                           
+  inc/link.class.php:537                             getEntitiesRestrictRequest()
+  inc/search.class.php:5231                          Link::getSearchOptionsToAdd()
+  inc/log.class.php:120                              Search::getOptions()
+  inc/commondbtm.class.php:369                       Log::constructHistory()
+  inc/commondbtm.class.php:1115                      CommonDBTM->updateInDB()
+  inc/auth.class.php:384                             CommonDBTM->update()
+  inc/auth.class.php:677                             Auth->connection_db()
+  front/login.php:74                                 Auth->Login()
+2015-10-13 21:31:28 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:53                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:33:38 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:53                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:33:55 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:34:18 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:34:53 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:34:56 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:35:35 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:35:37 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:40:09 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:40:10 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:40:37 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:45:27 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:45:28 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:51:57 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:54:35 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 21:54:37 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:00:52 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:06:35 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:06:54 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:07:05 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:08:38 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:09:16 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:09:43 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-13 22:09:46 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-13 22:09:47 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-13 22:09:48 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-13 22:09:48 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-13 22:24:49 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-13 22:24:51 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-13 22:24:53 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-13 22:25:21 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:53                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:27:25 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:53                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:28:02 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:28:20 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:28:31 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:28:39 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Can't contact LDAP server
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:30:38 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:31:15 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:35:01 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:36:56 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:37:43 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:38:43 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-13 22:38:45 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-14 14:48:10 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 14:48:10 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 14:48:10 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 14:48:10 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:18:22 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:18:22 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:18:22 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:18:22 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:19:13 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:19:13 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:19:13 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:19:13 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:19:22 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:19:22 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:19:22 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:19:22 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:56:01 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2152                        AuthLDAP::connectToServer()
+  inc/authldap.class.php:2020                        AuthLDAP->connect()
+  front/user.form.php:103                            AuthLDAP::ldapImportUserByServerId()
+2015-10-14 21:56:11 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:56:11 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:56:11 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 21:56:11 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 22:12:52 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 22:12:52 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 22:12:52 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 22:12:52 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 22:13:07 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 22:13:07 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 22:13:07 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-14 22:13:07 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-15 15:25:00 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-15 15:25:00 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-15 15:25:00 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-15 15:25:00 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-15 15:26:14 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-15 15:26:14 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-15 15:26:14 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-15 15:26:14 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-15 16:06:27 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 16:12:40 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 16:12:43 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 16:18:13 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 16:38:18 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 16:51:42 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 16:51:44 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 16:51:45 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 16:53:09 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 17:43:40 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 17:43:43 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 17:43:47 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 18:13:55 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 18:13:58 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 18:15:31 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 18:15:32 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 18:16:02 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 18:16:04 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 18:17:31 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 18:17:37 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 19:58:43 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 19:58:46 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 19:59:20 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 19:59:22 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2015-10-15 20:05:13 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 20:07:43 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-10-15 20:29:34 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1858                        ldap_search()
+  inc/authldap.class.php:1745                        AuthLDAP::getGroupsFromLDAP()
+  inc/authldap.class.php:1618                        AuthLDAP::getAllGroups()
+  front/ldap.group.import.php:97                     AuthLDAP::showLdapGroups()
+2015-10-15 20:30:00 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1858                        ldap_search()
+  inc/authldap.class.php:1745                        AuthLDAP::getGroupsFromLDAP()
+  inc/authldap.class.php:1618                        AuthLDAP::getAllGroups()
+  front/ldap.group.import.php:97                     AuthLDAP::showLdapGroups()
+2015-10-15 20:30:24 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1858                        ldap_search()
+  inc/authldap.class.php:1745                        AuthLDAP::getGroupsFromLDAP()
+  inc/authldap.class.php:1618                        AuthLDAP::getAllGroups()
+  front/ldap.group.import.php:97                     AuthLDAP::showLdapGroups()
+2015-10-15 20:36:40 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 20:36:54 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 20:37:21 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:02:03 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:02:38 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:04:04 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:04:05 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:04:16 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:04:20 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:04:43 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:17:00 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:17:07 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:17:16 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:17:22 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:17:27 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:17:36 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:17:43 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:17:46 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:17:56 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:18:02 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:18:05 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:18:16 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:18:21 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:18:28 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:18:38 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:18:45 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:18:49 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:18:58 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:19:09 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:19:18 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:20:26 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:20:35 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:20:44 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:22:00 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:22:02 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:22:07 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:24:50 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:24:52 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:24:57 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:25:09 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:25:17 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-15 21:26:17 [9@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-19 15:07:45 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/reminder.class.php:1046                        
+  inc/central.class.php:212                          Reminder::showListForCentral()
+  inc/central.class.php:79                           Central::showMyView()
+  inc/commonglpi.class.php:455                       Central::displayTabContentForItem()
+  inc/commonglpi.class.php:430                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:87                            CommonGLPI::displayStandardTab()
+2015-10-19 15:07:45 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/reminder.class.php:66                          
+  inc/reminder.class.php:1095                        Reminder::canCreate()
+  inc/central.class.php:212                          Reminder::showListForCentral()
+  inc/central.class.php:79                           Central::showMyView()
+  inc/commonglpi.class.php:455                       Central::displayTabContentForItem()
+  inc/commonglpi.class.php:430                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:87                            CommonGLPI::displayStandardTab()
+2015-10-19 15:07:45 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/rssfeed.class.php:874                          
+  inc/central.class.php:231                          RSSFeed::showListForCentral()
+  inc/central.class.php:91                           Central::showRSSView()
+  inc/commonglpi.class.php:455                       Central::displayTabContentForItem()
+  inc/commonglpi.class.php:430                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:87                            CommonGLPI::displayStandardTab()
+2015-10-19 15:07:45 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/rssfeed.class.php:87                           
+  inc/rssfeed.class.php:935                          RSSFeed::canCreate()
+  inc/central.class.php:231                          RSSFeed::showListForCentral()
+  inc/central.class.php:91                           Central::showRSSView()
+  inc/commonglpi.class.php:455                       Central::displayTabContentForItem()
+  inc/commonglpi.class.php:430                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:87                            CommonGLPI::displayStandardTab()
+2015-10-19 15:07:45 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/rssfeed.class.php:94                           
+  inc/central.class.php:233                          RSSFeed::canView()
+  inc/central.class.php:91                           Central::showRSSView()
+  inc/commonglpi.class.php:455                       Central::displayTabContentForItem()
+  inc/commonglpi.class.php:430                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:87                            CommonGLPI::displayStandardTab()
+2015-10-19 15:07:45 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/rssfeed.class.php:94                           
+  inc/rssfeed.class.php:889                          RSSFeed::canView()
+  inc/central.class.php:234                          RSSFeed::showListForCentral()
+  inc/central.class.php:91                           Central::showRSSView()
+  inc/commonglpi.class.php:455                       Central::displayTabContentForItem()
+  inc/commonglpi.class.php:430                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:87                            CommonGLPI::displayStandardTab()
+2015-10-19 15:07:45 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/rssfeed.class.php:895                          
+  inc/central.class.php:234                          RSSFeed::showListForCentral()
+  inc/central.class.php:91                           Central::showRSSView()
+  inc/commonglpi.class.php:455                       Central::displayTabContentForItem()
+  inc/commonglpi.class.php:430                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:87                            CommonGLPI::displayStandardTab()
+2015-10-19 15:07:45 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/rssfeed.class.php:94                           
+  inc/rssfeed.class.php:290                          RSSFeed::canView()
+  inc/rssfeed.class.php:901                          RSSFeed::addVisibilityJoins()
+  inc/central.class.php:234                          RSSFeed::showListForCentral()
+  inc/central.class.php:91                           Central::showRSSView()
+  inc/commonglpi.class.php:455                       Central::displayTabContentForItem()
+  inc/commonglpi.class.php:430                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:87                            CommonGLPI::displayStandardTab()
+2015-10-19 15:07:45 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/rssfeed.class.php:94                           
+  inc/rssfeed.class.php:334                          RSSFeed::canView()
+  inc/rssfeed.class.php:903                          RSSFeed::addVisibilityRestrict()
+  inc/central.class.php:234                          RSSFeed::showListForCentral()
+  inc/central.class.php:91                           Central::showRSSView()
+  inc/commonglpi.class.php:455                       Central::displayTabContentForItem()
+  inc/commonglpi.class.php:430                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:87                            CommonGLPI::displayStandardTab()
+2015-10-19 15:07:45 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/rssfeed.class.php:906                          
+  inc/central.class.php:234                          RSSFeed::showListForCentral()
+  inc/central.class.php:91                           Central::showRSSView()
+  inc/commonglpi.class.php:455                       Central::displayTabContentForItem()
+  inc/commonglpi.class.php:430                       CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:87                            CommonGLPI::displayStandardTab()
+2015-10-19 22:59:28 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-19 23:00:17 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-19 23:00:24 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-19 23:00:28 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-19 23:00:32 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-20 16:15:31 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  lib/icalcreator/iCalcreator.class.php:8483         trim()
+  lib/icalcreator/iCalcreator.class.php:2830         iCalUtilityFunctions::_setDate()
+  lib/icalcreator/iCalcreator.class.php:5734         calendarComponent->setDtstart()
+  lib/icalcreator/iCalcreator.class.php:7417         calendarComponent->setProperty()
+  inc/planning.class.php:1120                        iCalUtilityFunctions::createTimezone()
+  front/planning.php:115                             Planning::generateIcal()
+2015-10-20 20:15:21 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-21 17:05:17 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-21 17:05:24 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-21 17:05:28 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-10-21 21:24:15 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/reminder.class.php:73                          
+  inc/commonglpi.class.php:248                       Reminder::canView()
+  inc/html.class.php:1198                            CommonGLPI::getMenuContent()
+  front/device.php:38                                Html::header()
+2015-10-21 21:24:15 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/reminder.class.php:66                          
+  inc/commonglpi.class.php:256                       Reminder::canCreate()
+  inc/html.class.php:1198                            CommonGLPI::getMenuContent()
+  front/device.php:38                                Html::header()
+2015-10-21 21:24:15 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/rssfeed.class.php:94                           
+  inc/commonglpi.class.php:248                       RSSFeed::canView()
+  inc/html.class.php:1198                            CommonGLPI::getMenuContent()
+  front/device.php:38                                Html::header()
+2015-10-21 21:24:15 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/rssfeed.class.php:87                           
+  inc/commonglpi.class.php:256                       RSSFeed::canCreate()
+  inc/html.class.php:1198                            CommonGLPI::getMenuContent()
+  front/device.php:38                                Html::header()
+2015-11-11 22:04:33 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-11-11 22:04:53 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-11-11 22:05:14 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-11-11 22:05:35 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-11-11 22:11:46 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Search: Bad search filter
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-11-11 22:11:55 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-11-11 22:12:07 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_search(): Partial search results returned: Sizelimit exceeded
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1360                        ldap_search()
+  inc/authldap.class.php:1487                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1226                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2907                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2015-11-17 14:36:06 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2015-12-18 11:25:02 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/reminder.class.php:73                          
+  inc/commonglpi.class.php:248                       Reminder::canView()
+  inc/html.class.php:1198                            CommonGLPI::getMenuContent()
+  front/stat.global.php:36                           Html::header()
+2015-12-18 11:25:02 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/reminder.class.php:66                          
+  inc/commonglpi.class.php:256                       Reminder::canCreate()
+  inc/html.class.php:1198                            CommonGLPI::getMenuContent()
+  front/stat.global.php:36                           Html::header()
+2015-12-18 11:25:02 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/rssfeed.class.php:94                           
+  inc/commonglpi.class.php:248                       RSSFeed::canView()
+  inc/html.class.php:1198                            CommonGLPI::getMenuContent()
+  front/stat.global.php:36                           Html::header()
+2015-12-18 11:25:02 [@srvdev02.agrorural.gob.pe]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  inc/rssfeed.class.php:87                           
+  inc/commonglpi.class.php:256                       RSSFeed::canCreate()
+  inc/html.class.php:1198                            CommonGLPI::getMenuContent()
+  front/stat.global.php:36                           Html::header()
+2016-01-04 09:23:54 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-01-25 08:58:32 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-01-25 08:59:01 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-01-25 09:01:33 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-01-25 09:06:31 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-01-25 09:06:37 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-01-25 09:07:45 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-01-25 09:25:44 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-01-25 15:14:30 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-01-25 15:14:59 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-01-25 15:15:34 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-01-25 15:15:51 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+Test
+2016-02-08 09:34:13 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-03-17 14:42:43 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-03-28 11:24:41 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/auth.class.php:237                             ldap_bind()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-03-28 17:44:41 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-03-28 17:44:41 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-03-28 17:46:36 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-03-28 17:46:36 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-03-28 19:21:49 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-03-28 19:21:49 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-03-29 16:31:58 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-29 16:32:15 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-29 16:32:19 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-29 16:32:31 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-29 16:32:36 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 10:29:18 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 10:29:25 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 10:29:34 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 10:35:33 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 10:36:05 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 10:36:29 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 10:36:37 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 10:36:55 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 10:36:56 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 10:37:29 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 11:02:21 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 11:06:31 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 11:06:39 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-03-30 11:06:41 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-04-05 16:06:18 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-04-05 16:06:25 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-04-05 16:06:35 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-04-08 10:00:21 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-08 10:00:21 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-11 08:53:26 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-04-11 08:53:40 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-04-11 08:53:43 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-04-11 11:17:18 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-04-11 11:17:30 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-04-12 10:13:08 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 10:13:08 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 10:13:13 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 10:13:13 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 10:13:19 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 10:13:19 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 12:41:42 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 12:41:42 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 12:41:53 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 12:41:53 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 15:41:41 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 15:41:41 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 15:41:50 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 15:41:50 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 15:41:56 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-12 15:41:56 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-14 11:09:30 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-14 11:09:30 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-19 08:26:02 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-19 08:26:02 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2376                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:721                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-04-19 11:55:52 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-04-19 11:56:01 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-04-19 11:56:07 [851@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2906                        AuthLDAP::connectToServer()
+  front/ldap.import.php:68                           AuthLDAP::searchUser()
+2016-05-12 14:22:08 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-05-12 14:22:08 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-05-12 14:25:20 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-05-12 14:25:20 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-05-12 14:26:19 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-05-12 14:26:19 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-05-12 14:27:11 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2209                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-05-12 14:27:11 [@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:2216                        AuthLDAP::connectToServer()
+  inc/auth.class.php:221                             AuthLDAP::tryToConnectToServer()
+  inc/authldap.class.php:2330                        Auth->connection_ldap()
+  inc/authldap.class.php:2388                        AuthLDAP::ldapAuth()
+  inc/auth.class.php:700                             AuthLDAP::tryLdapAuth()
+  front/login.php:74                                 Auth->Login()
+2016-05-12 14:36:29 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2016-05-12 14:37:57 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2016-05-12 14:41:52 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()
+2016-05-12 14:41:54 [2@srvdev02.agrorural.gob.pe]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2183                        ldap_bind()
+  inc/authldap.class.php:1182                        AuthLDAP::connectToServer()
+  front/authldap.form.php:71                         AuthLDAP::testLDAPConnection()

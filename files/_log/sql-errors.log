@@ -1,0 +1,32 @@
+2015-10-14 21:06:25 [2@srvdev02.agrorural.gob.pe]
+  *** MySQL query error:
+  SQL: INSERT
+                   INTO `glpi_locations` (`entities_id`,`is_recursive`,`name`,`comment`,`locations_id`,`building`,`room`,`longitude`,`latitude`,`altitude`,`level`,`completename`) VALUES (\'0\',\'0\',\'UTI\',\'SOPORTE TECNICO\',0,\'1\',\'2\',\'\',\'\',\'\',\'1\',\'UTI\')
+  Error: Duplicate entry '0-0-UTI' for key 'unicity'
+  Backtrace :
+  inc/commondbtm.class.php:421                       
+  inc/commondbtm.class.php:827                       CommonDBTM->addToDB()
+  front/dropdown.common.form.php:54                  CommonDBTM->add()
+  front/location.form.php:37                         include()
+2016-01-26 15:17:22 [1050@srvdev02.agrorural.gob.pe]
+  *** MySQL query error:
+  SQL: INSERT
+                   INTO `glpi_locations` (`entities_id`,`is_recursive`,`name`,`comment`,`locations_id`,`building`,`room`,`longitude`,`latitude`,`altitude`,`level`,`completename`) VALUES (\'0\',\'0\',\'SERVICIOS GENERALES\',\'\',0,\'\',\'\',\'\',\'\',\'\',\'1\',\'SERVICIOS GENERALES\')
+  Error: Duplicate entry '0-0-SERVICIOS GENERALES' for key 'unicity'
+  Backtrace :
+  inc/commondbtm.class.php:421                       
+  inc/commondbtm.class.php:827                       CommonDBTM->addToDB()
+  front/dropdown.common.form.php:54                  CommonDBTM->add()
+  front/location.form.php:37                         include()
+2016-03-29 16:47:14 [2@srvdev02.agrorural.gob.pe]
+  *** MySQL query error:
+  SQL: INSERT
+                   INTO `glpi_tickets_users` (`users_id`,`type`,`tickets_id`,`alternative_email`) VALUES (\'846\',\'2\',\'1592\',\'\')
+  Error: Duplicate entry '1592-2-846-' for key 'unicity'
+  Backtrace :
+  inc/commondbtm.class.php:421                       
+  inc/commondbtm.class.php:827                       CommonDBTM->addToDB()
+  inc/commonitilobject.class.php:720                 CommonDBTM->add()
+  inc/ticket.class.php:1029                          CommonITILObject->prepareInputForUpdate()
+  inc/commondbtm.class.php:1034                      Ticket->prepareInputForUpdate()
+  front/ticket.form.php:65                           CommonDBTM->update()
